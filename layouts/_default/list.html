@@ -5,4 +5,12 @@
       <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
     {{ end }}
   </ul>
+  {{ if .Parent }}
+    <hr>
+    <p>🔙 <a href="{{ .Parent.RelPermalink }}">Back to {{ .Parent.Title }}</a></p>
+  {{ else }}
+    <hr>
+    <p>🏠 <a href="/">Back to Homepage</a></p>
+  {{ end }}
+
 {{ end }}

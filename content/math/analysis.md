@@ -3,7 +3,6 @@ date = '2025-02-12T12:44:11+01:00'
 draft = false
 title = 'Welcome'
 +++
-# Markdown LaTeX.css Test
 
 ## Theorems & Definitions
 

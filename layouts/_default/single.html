@@ -1,0 +1,11 @@
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+  <div>
+    {{ .Content }}
+  </div>
+
+  {{ if .Parent }}
+    <hr>
+    <p>🔙 <a href="{{ .Parent.RelPermalink }}">Back to {{ .Parent.Title }}</a></p>
+  {{ end }}
+{{ end }}
