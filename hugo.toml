@@ -9,9 +9,15 @@ pygmentsUseClasses = true
 [params]
   description = "Adil Shamji"
   copyright = "Copyright © 2025 Adil Shamji"
-  dark = "on"
+  dark = "off"
+  grey = "off"
+  latex = "on"
   mainSections = ["posts"]
   paginate = 5
   showDescription = true
   showReadingTime = true
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

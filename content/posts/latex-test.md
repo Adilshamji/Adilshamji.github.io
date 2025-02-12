@@ -3,11 +3,7 @@ date = '2025-02-12T13:24:40+01:00'
 draft = false
 title = 'Latex Test'
 +++
----
-title: "LaTeX CSS Test"
-date: 2025-02-12
-draft: false
----
+
 
 # Lorem Ipsum
 

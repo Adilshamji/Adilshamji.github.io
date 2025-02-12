@@ -1,5 +1,4 @@
 <head>
-    
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     {{ with .Site.Params.description -}}
@@ -13,13 +12,15 @@
     {{ $resources := slice -}}
 
     {{ $resources = $resources | append (resources.Get "css/main.css") -}}
-
     {{ $resources = $resources | append (resources.Get "css/min770px.css") -}}
 
-    {{ $dark := .Site.Params.dark | default "auto" -}}
-    {{ if not (eq $dark "off") -}}
+    {{ if eq .Site.Params.grey "on" }}
+        {{ $resources = $resources | append (resources.Get "css/grey.css" | resources.ExecuteAsTemplate "grey.css" .) -}}
+    {{ else if  (eq .Site.Params.dark "on") }}
         {{ $resources = $resources | append (resources.Get "css/dark.css" | resources.ExecuteAsTemplate "dark.css" .) -}}
-    {{ end -}}
+    {{ else if  (eq .Site.Params.latex "on") }}
+    {{ $resources = $resources | append (resources.Get "css/latex.css" | resources.ExecuteAsTemplate "latex.css" .) -}}
+    {{ end }}
 
     {{ if .Site.Params.highlight -}}
         {{ $resources = $resources | append (resources.Get "css/syntax.css") -}}

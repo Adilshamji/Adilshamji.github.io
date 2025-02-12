@@ -17,11 +17,7 @@
       <pubDate>Wed, 12 Feb 2025 13:24:40 +0100</pubDate>
       
       <guid>http://localhost:1313/posts/latex-test/</guid>
-      <description>&lt;hr&gt;
-&lt;h2 id=&#34;draft-false&#34;&gt;title: &amp;ldquo;LaTeX CSS Test&amp;rdquo;
-date: 2025-02-12
-draft: false&lt;/h2&gt;
-&lt;h1 id=&#34;lorem-ipsum&#34;&gt;Lorem Ipsum&lt;/h1&gt;
+      <description>&lt;h1 id=&#34;lorem-ipsum&#34;&gt;Lorem Ipsum&lt;/h1&gt;
 &lt;p&gt;Lorem ipsum dolor sit amet, &lt;em&gt;consectetur&lt;/em&gt; adipiscing elit. &lt;strong&gt;Integer nec odio.&lt;/strong&gt; Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.&lt;/p&gt;
 &lt;h2 id=&#34;equations&#34;&gt;Equations&lt;/h2&gt;
 &lt;p&gt;Here is an example of a LaTeX-style equation:&lt;/p&gt;
@@ -84,18 +80,744 @@ Here is a proof for the theorem.
       <pubDate>Wed, 12 Feb 2025 12:44:11 +0100</pubDate>
       
       <guid>http://localhost:1313/posts/welcome/</guid>
-      <description>&lt;p&gt;adadadadsadad
-ad
-a
-da
-d
-ad
-a
-d
-ad
-a
-d&lt;/p&gt;
-</description>
+      <description>&lt;h1 id=&#34;markdown-latexcss-test&#34;&gt;Markdown LaTeX.css Test&lt;/h1&gt;
+&lt;h2 id=&#34;theorems--definitions&#34;&gt;Theorems &amp;amp; Definitions&lt;/h2&gt;
+&lt;h3 id=&#34;theorem&#34;&gt;Theorem&lt;/h3&gt;
+&lt;div class=&#34;theorem&#34;&gt;
+This is an example of a theorem. It should be styled with a left border and italicized text.
+&lt;/div&gt;
+&lt;h3 id=&#34;lemma&#34;&gt;Lemma&lt;/h3&gt;
+&lt;div class=&#34;lemma&#34;&gt;
+This is an example of a lemma. It should look similar to a theorem but be labeled as a Lemma.
+&lt;/div&gt;
+&lt;h3 id=&#34;definition&#34;&gt;Definition&lt;/h3&gt;
+&lt;div class=&#34;definition&#34;&gt;
+A &lt;strong&gt;definition&lt;/strong&gt; should be clearly distinguishable from theorems and lemmas. It provides formal explanations.
+&lt;/div&gt;
+&lt;h3 id=&#34;proof&#34;&gt;Proof&lt;/h3&gt;
+&lt;div class=&#34;proof&#34;&gt;
+We begin with the given assumptions and apply known results. Finally, we arrive at the conclusion.
+&lt;/div&gt;
+&lt;h3 id=&#34;proof-with-ending-symbol&#34;&gt;Proof with Ending Symbol&lt;/h3&gt;
+&lt;div class=&#34;proof&#34;&gt;
+This proof should have a right-aligned ending symbol.
+&lt;/div&gt;
+&lt;h2 id=&#34;lists-and-blockquotes&#34;&gt;Lists and Blockquotes&lt;/h2&gt;
+&lt;h3 id=&#34;ordered-list&#34;&gt;Ordered List&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;First item&lt;/li&gt;
+&lt;li&gt;Second item&lt;/li&gt;
+&lt;li&gt;Third item&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;unordered-list&#34;&gt;Unordered List&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Bullet point one&lt;/li&gt;
+&lt;li&gt;Bullet point two&lt;/li&gt;
+&lt;li&gt;Bullet point three&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;blockquote&#34;&gt;Blockquote&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This is a blockquote. It should have a left border and an italicized font.&lt;/p&gt;&lt;/blockquote&gt;
+&lt;h2 id=&#34;code-blocks&#34;&gt;Code Blocks&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Python example&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;def&lt;/span&gt; &lt;span class=&#34;nf&#34;&gt;theorem_proof&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;):&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;return&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;**&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;x&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    
+    
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/posts/test/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/test/</guid>
+      <description>&lt;!DOCTYPE html&gt;
+&lt;html lang=&#34;en&#34;&gt;
+
+&lt;head&gt;
+  &lt;meta charset=&#34;UTF-8&#34; /&gt;
+  &lt;meta name=&#34;viewport&#34; content=&#34;width=device-width, initial-scale=1.0&#34; /&gt;
+  &lt;meta name=&#34;google-site-verification&#34; content=&#34;tm5Y6ZNTf-lBqbwniGjQPv1q02o2TuUQZ9GTYa4SMLg&#34; /&gt;
+  &lt;title&gt;LaTeX.css — Make your website look like a LaTeX document&lt;/title&gt;
+
+  &lt;meta name=&#34;description&#34;
+    content=&#34;A minimal, almost class-less CSS library to write modern websites that look like LaTeX documents.&#34; /&gt;
+  &lt;meta name=&#34;keywords&#34; content=&#34;latex.css,css library,class-less css,latex css&#34; /&gt;
+  &lt;meta property=&#34;og:title&#34; content=&#34;LaTeX.css&#34; /&gt;
+  &lt;meta property=&#34;og:url&#34; content=&#34;https://latex.vercel.app&#34; /&gt;
+  &lt;meta property=&#34;og:description&#34;
+    content=&#34;A minimal, almost class-less CSS library to write modern websites that look like LaTeX documents.&#34; /&gt;
+  &lt;meta property=&#34;og:type&#34; content=&#34;website&#34; /&gt;
+
+  &lt;link rel=&#34;stylesheet&#34; href=&#34;style.css&#34; /&gt;
+  &lt;link rel=&#34;stylesheet&#34; href=&#34;prism/prism.css&#34; /&gt;
+&lt;/head&gt;
+
+&lt;body id=&#34;top&#34;&gt;
+  &lt;header&gt;
+    &lt;h1&gt;&lt;span class=&#34;latex&#34;&gt;L&lt;span&gt;a&lt;/span&gt;T&lt;span&gt;e&lt;/span&gt;X&lt;/span&gt;.css&lt;/h1&gt;
+    &lt;p class=&#34;author&#34;&gt;
+      Vincent Dörig &lt;br /&gt;
+      May 2020
+    &lt;/p&gt;
+  &lt;/header&gt;
+
+  &lt;div class=&#34;abstract&#34;&gt;
+    &lt;h2&gt;Abstract&lt;/h2&gt;
+    &lt;p&gt;
+      This almost class-less CSS library turns your HTML document into a
+      website that looks like a
+      &lt;span class=&#34;latex&#34;&gt;L&lt;span&gt;a&lt;/span&gt;T&lt;span&gt;e&lt;/span&gt;X&lt;/span&gt;
+      document. Write semantic HTML, add
+      &lt;code class=&#34;language-html&#34;&gt;&amp;lt;link rel=&#34;stylesheet&#34;
+          href=&#34;https://latex.vercel.app/style.css&#34;&amp;gt;&lt;/code&gt;
+      to the &lt;code class=&#34;language-html&#34;&gt;&amp;lt;head&amp;gt;&lt;/code&gt; of your project and you are good to go.
+      The source code can be found on GitHub at
+      &lt;a href=&#34;https://github.com/vincentdoerig/latex-css&#34;&gt;https://github.com/vincentdoerig/latex-css&lt;/a&gt;.
+    &lt;/p&gt;
+  &lt;/div&gt;
+
+  &lt;nav role=&#34;navigation&#34; class=&#34;toc&#34;&gt;
+    &lt;h2&gt;Contents&lt;/h2&gt;
+    &lt;ol&gt;
+      &lt;li&gt;&lt;a href=&#34;#getting-started&#34;&gt;Getting Started&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;
+        &lt;a href=&#34;#class-based-elements&#34;&gt;Class-based Elements&lt;/a&gt;
+        &lt;ol&gt;
+          &lt;li&gt;&lt;a href=&#34;#author-abstract&#34;&gt;Author and Abstract&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;
+            &lt;a href=&#34;#tdpl&#34;&gt;Theorems, Definitions and Proofs&lt;/a&gt;
+            &lt;ol&gt;
+              &lt;li&gt;&lt;a href=&#34;#proofs-theorems&#34;&gt;Proofs &amp; Theorems&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href=&#34;#lemmas&#34;&gt;Lemmas&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href=&#34;#definitions&#34;&gt;Definitions&lt;/a&gt;&lt;/li&gt;
+            &lt;/ol&gt;
+          &lt;/li&gt;
+          &lt;li&gt;&lt;a href=&#34;#paragraphs&#34;&gt;Paragraphs&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&#34;#table-classes&#34;&gt;Table Classes&lt;/a&gt;
+            &lt;ol&gt;
+              &lt;li&gt;&lt;a href=&#34;#table-borders&#34;&gt;Custom Table Borders&lt;/a&gt;&lt;/li&gt;
+              &lt;li&gt;&lt;a href=&#34;#table-column-aligment&#34;&gt;Table Column Alignment&lt;/a&gt;&lt;/li&gt;
+            &lt;/ol&gt;
+          &lt;/li&gt;
+          &lt;li&gt;&lt;a href=&#34;#auto-hyphenation&#34;&gt;Automatic Hyphenation&lt;/a&gt;&lt;/li&gt;
+        &lt;/ol&gt;
+      &lt;/li&gt;
+      &lt;li&gt;&lt;a href=&#34;#language-support&#34;&gt;Language Support&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&#34;#sidenotes&#34;&gt;Sidenotes&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&#34;#dark-mode&#34;&gt;Dark Mode&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&#34;#alternative-typeface&#34;&gt;Alternative Typeface&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;
+        &lt;a href=&#34;#html-elements&#34;&gt;HTML Elements&lt;/a&gt;
+        &lt;ol&gt;
+          &lt;li&gt;&lt;a href=&#34;#text-formatting&#34;&gt;Text Formatting&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&#34;#blockquotes&#34;&gt;Blockquotes&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&#34;#definition-lists&#34;&gt;Definition Lists&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&#34;#tables&#34;&gt;Tables&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&#34;#images&#34;&gt;Images&lt;/a&gt;&lt;/li&gt;
+        &lt;/ol&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;a href=&#34;#miscellaneous&#34;&gt;Miscellaneous&lt;/a&gt;
+        &lt;ol&gt;
+          &lt;li&gt;&lt;a href=&#34;#scroll-overflow&#34;&gt;Scroll Overflow&lt;/a&gt;&lt;/li&gt;
+          &lt;li&gt;&lt;a href=&#34;#syntax-highlighting&#34;&gt;Syntax Highlighting&lt;/a&gt;&lt;/li&gt;
+        &lt;/ol&gt;
+      &lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/nav&gt;
+
+  &lt;main&gt;
+    &lt;article&gt;
+      &lt;h2 id=&#34;getting-started&#34;&gt;Getting Started&lt;/h2&gt;
+      &lt;ul&gt;
+        &lt;li&gt;
+          Add
+          &lt;code class=&#34;language-html&#34;&gt;&amp;lt;link rel=&#34;stylesheet&#34;
+              href=&#34;https://latex.vercel.app/style.css&#34;&amp;gt;&lt;/code&gt;
+          to the &lt;code class=&#34;language-html&#34;&gt;&amp;lt;head&amp;gt;&lt;/code&gt; of your website or install the
+          package using &lt;code&gt;npm install latex.css&lt;/code&gt;.
+        &lt;/li&gt;
+        &lt;li&gt;
+          (optional) Add any classes to elements described in the
+          &lt;a href=&#34;#class-based-elements&#34;&gt;next section&lt;/a&gt;.
+        &lt;/li&gt;
+        &lt;li&gt;
+          (optional) Add dark mode by adding the &lt;code&gt;latex-dark-auto&lt;/code&gt; class to the &lt;code
+            class=&#34;language-html&#34;&gt;&amp;lt;body&amp;gt;&lt;/code&gt;.
+          More infos &lt;a href=&#34;#dark-mode&#34;&gt;here&lt;/a&gt;.
+        &lt;/li&gt;
+        &lt;li&gt;
+          (optional) If you need support for
+          &lt;span class=&#34;latex&#34;&gt;L&lt;span&gt;a&lt;/span&gt;T&lt;span&gt;e&lt;/span&gt;X&lt;/span&gt; math, add
+          the following script to include
+          &lt;a href=&#34;https://www.mathjax.org/&#34;&gt;MathJax&lt;/a&gt;:
+          &lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;script id=&#34;MathJax-script&#34; async src=&#34;https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js&#34;&amp;gt;&amp;lt;/script&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+        &lt;/li&gt;
+        &lt;li&gt;
+          (optional) If you need syntax highlighting, add
+          the following script to include
+          &lt;a href=&#34;https://prismjs.com/&#34;&gt;Prism&lt;/a&gt; and the Prism LaTeX stylesheet (or use any other):
+          &lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;link rel=&#34;stylesheet&#34; href=&#34;https://latex.vercel.app/prism/prism.css&#34;&amp;gt;
+
+&amp;lt;script src=&#34;https://cdn.jsdelivr.net/npm/prismjs/prism.min.js&#34;&amp;gt;&amp;lt;/script&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+        &lt;/li&gt;
+        &lt;li&gt;Done.&lt;/li&gt;
+      &lt;/ul&gt;
+
+      &lt;h2 id=&#34;class-based-elements&#34;&gt;Class-based Elements&lt;/h2&gt;
+      &lt;h3 id=&#34;author-abstract&#34;&gt;Author and Abstract&lt;/h3&gt;
+      &lt;p&gt;
+        Use the following code to add an author and abstract to your document.
+        It will look like &lt;a href=&#34;#top&#34;&gt;this&lt;/a&gt;.
+      &lt;/p&gt;
+      &lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;p class=&#34;author&#34;&amp;gt;John Doe &amp;lt;br&amp;gt; December 7, 2020&amp;lt;/p&amp;gt;
+
+&amp;lt;div class=&#34;abstract&#34;&amp;gt;
+  &amp;lt;h2&amp;gt;Abstract&amp;lt;/h2&amp;gt;
+  &amp;lt;p&amp;gt;...&amp;lt;/p&amp;gt;
+&amp;lt;/div&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+
+      &lt;h3 id=&#34;tdpl&#34;&gt;Theorems, Definitions, Lemmas and Proofs&lt;/h3&gt;
+      &lt;p&gt;
+        Theorems, definitions, lemmas and proofs are supported. Just wrap your
+        content in a div and add the corresponding class to the element like
+        in the following example.
+      &lt;/p&gt;
+
+      &lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;div class=&#34;theorem&#34;&amp;gt;...&amp;lt;/div&amp;gt;
+&amp;lt;div class=&#34;definition&#34;&amp;gt;...&amp;lt;/div&amp;gt;
+&amp;lt;div class=&#34;lemma&#34;&amp;gt;...&amp;lt;/div&amp;gt;
+&amp;lt;div class=&#34;proof&#34;&amp;gt;...&amp;lt;/div&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;p&gt;Below are some examples.&lt;/p&gt;
+      &lt;h4 id=&#34;proofs-theorems&#34;&gt;Proofs &amp; Theorems&lt;/h4&gt;
+      &lt;div class=&#34;theorem&#34;&gt;
+        The real numbers $\mathbb{R}$ are uncountable.
+      &lt;/div&gt;
+      &lt;div class=&#34;proof&#34;&gt;
+        If $\mathbb{R}$ is countable, then [0, 1] is countable as well. Hence
+        there exists a map C from $\mathbb{N}$ onto [0, 1] with
+        $$C(n)=\sum_{i=1}^{\infty} c_{i}(n) 10^{-i}$$ where $c_{i}(n)
+        \in\{0,1, \ldots, 9\},$ are the digits in decimal expansion. Now
+        consider a real number $$x=\sum_{i=1}^{\infty} \bar{c}_{i} 10^{-i}
+        \in[0,1]$$ with $\bar{c}_{i} \neq c_{i}(i)$. Obviously $C(n) \neq x$
+        for all $n \in \mathbb{N} .$ Hence $C$ is not onto. A contradiction.
+      &lt;/div&gt;
+      &lt;div class=&#34;theorem&#34;&gt;
+        If $S$ is both countable and infinite, then there is a bijection
+        between $S$ and $\boldsymbol{N}$ itself.&lt;sup&gt;&lt;a href=&#34;#fn1&#34; id=&#34;ref1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;
+      &lt;/div&gt;
+      &lt;div class=&#34;proof&#34;&gt;
+        For any $s \in S,$ we let $f(s)$ denote the value of $k$ such that $s$
+        is the $k$ the smallest element of $S .$ This map is well defined for
+        any $s,$ because there are only finitely many natural numbers between
+        1 and $s .$ It is impossible for two different elements of $S$ to both
+        be the $k$ the smallest element of $S$. Hence $f$ is one-to-one. Also,
+        since $S$ is infinite, $f$ is onto.
+      &lt;/div&gt;
+      &lt;h4 id=&#34;lemmas&#34;&gt;Lemmas&lt;/h4&gt;
+      &lt;div class=&#34;lemma&#34;&gt;
+        An even number plus an even number results in an even number.
+      &lt;/div&gt;
+      &lt;h4 id=&#34;definitions&#34;&gt;Definitions&lt;/h4&gt;
+      &lt;div class=&#34;definition&#34;&gt;
+        A definition is a a statement of the meaning of a word or word group
+        or a sign or symbol.&lt;sup&gt;&lt;a href=&#34;#fn2&#34; id=&#34;ref2&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;
+      &lt;/div&gt;
+
+      &lt;h3 id=&#34;paragraphs&#34;&gt;Paragraphs&lt;/h3&gt;
+      &lt;p&gt;
+        In order to get automatic first line indentation of paragraphs, like in
+        default &lt;span class=&#34;latex&#34;&gt;L&lt;span&gt;a&lt;/span&gt;T&lt;span&gt;e&lt;/span&gt;X&lt;/span&gt; articles, the class
+        &lt;code&gt;indent-pars&lt;/code&gt; can be used with &lt;code&gt;article&lt;/code&gt; tag.
+      &lt;/p&gt;
+      &lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;article class=&#34;indent-pars&#34;&amp;gt;
+  ...
+&amp;lt;/article&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;p&gt;
+        The CSS style provided follows &lt;code&gt;babel&lt;/code&gt; specific language rules: by default,
+        the first paragraph after a section title is not indented in English, unlike Spanish and
+        French languages.
+      &lt;/p&gt;
+      &lt;p&gt;
+        To avoid first line indentation of some specific paragraph, the class &lt;code&gt;no-indent&lt;/code&gt;
+        can be used.&lt;/p&gt;
+      &lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;p class=&#34;no-indent&#34;&amp;gt;...&amp;lt;/p&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;h3 id=&#34;table-classes&#34;&gt;Table Classes&lt;/h3&gt;
+      &lt;h4 id=&#34;table-borders&#34;&gt;Custom Table Borders&lt;/h4&gt;
+      &lt;p&gt;
+        To add custom borders to the table, you should use the class
+        &lt;code class=&#34;language-html&#34;&gt;borders-custom&lt;/code&gt; with &lt;code&gt;&amp;lt;table&amp;gt;&lt;/code&gt;
+        tag, to begin with a table without any border. The classes
+        &lt;code&gt;border-&amp;lt;position&amp;gt;-thin&lt;/code&gt; and &lt;code&gt;border-&amp;lt;position&amp;gt;-thick&lt;/code&gt;,
+        are available, where &lt;code&gt;&amp;lt;position&amp;gt;&lt;/code&gt; can take one of the values:
+        &lt;code&gt;top&lt;/code&gt;, &lt;code&gt;right&lt;/code&gt;, &lt;code&gt;bottom&lt;/code&gt;, &lt;code&gt;left&lt;/code&gt;.
+      &lt;/p&gt;
+      &lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;table class=&#34;borders-custom ...&#34;&amp;gt;
+  &amp;lt;tr class=&#34;border-bottom-thick&#34;&amp;gt;
+    &amp;lt;td&amp;gt;...&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;...&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;...&amp;lt;/td&amp;gt;
+  &amp;lt;/tr&amp;gt;
+  &amp;lt;tr class=&#34;border-bottom-thin&#34;&amp;gt;
+    &amp;lt;td&amp;gt;...&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;...&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;...&amp;lt;/td&amp;gt;
+  &amp;lt;/tr&amp;gt;
+  ...&lt;/code&gt;&lt;/pre&gt;
+      &lt;p&gt;See full examples in the &lt;a href=&#34;#tables&#34;&gt;section about tables&lt;/a&gt;.&lt;/p&gt;
+      &lt;h4 id=&#34;table-column-aligment&#34;&gt;Table Column Alignment&lt;/h4&gt;
+      &lt;p&gt;
+        For each column of the table, there is one class for left, center or right
+        alignment, up to 12 columns: &lt;code&gt;col-&amp;lt;n&amp;gt;-l&lt;/code&gt;, &lt;code&gt;col-&amp;lt;n&amp;gt;-c&lt;/code&gt;,
+        &lt;code&gt;col-&amp;lt;n&amp;gt;-r&lt;/code&gt;, &lt;code&gt;n&lt;/code&gt;=1, ...,12. For example, a table with 3 columns
+        using the following classes
+      &lt;/p&gt;
+      &lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;table class=&#34;col-1-l col-2-c col-3-r&#34;&amp;gt;
+  &amp;lt;tr&amp;gt;
+    &amp;lt;td&amp;gt;...&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;...&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;...&amp;lt;/td&amp;gt;
+  &amp;lt;/tr&amp;gt;
+  ...&lt;/code&gt;&lt;/pre&gt;
+      &lt;p&gt;
+        aligns the first column to the left, centers the second one and aligns the
+        third to the right.
+      &lt;/p&gt;
+
+      &lt;p&gt;See full examples in the &lt;a href=&#34;#tables&#34;&gt;section about tables&lt;/a&gt;.&lt;/p&gt;
+
+      &lt;h4 id=&#34;auto-hyphenation&#34;&gt;Automatic Hyphenation&lt;/h4&gt;
+        &lt;p&gt;
+          By default, hyphenation is allowed for all words in the document when text wraps
+          across multiple lines, except for code snippets. If you want to avoid this
+          behaviour for a specific word (for example, for a hyphenated compound word),
+          you can use the &lt;code class=&#34;language-css&#34;&gt;whitespace-nowrap&lt;/code&gt; utility class to
+          prevent line breaks inside an element.
+        &lt;/p&gt;
+
+      &lt;h2 id=&#34;language-support&#34;&gt;Language Support&lt;/h2&gt;
+      &lt;p&gt;
+        The labels of theorems, definitions, lemmas and proofs can be changed
+        to other
+        &lt;a href=&#34;https://github.com/vincentdoerig/latex-css/tree/master/lang&#34;&gt;supported language&lt;/a&gt;
+        by including the following snippet, linking to the desired language in
+        addition to the main CSS file.
+      &lt;/p&gt;
+      &lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;link rel=&#34;stylesheet&#34; href=&#34;https://latex.vercel.app/lang/es.css&#34; /&amp;gt;
+  ...
+&amp;lt;html lang=&#34;es&#34;&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;p&gt;
+        Take a peek at the &lt;a href=&#34;http://localhost:1313/languages&#34;&gt;language support demo&lt;/a&gt; to
+        see how the labels of the different languages change.
+      &lt;/p&gt;
+
+      &lt;h2 id=&#34;sidenotes&#34;&gt;Sidenotes&lt;/h2&gt;
+      &lt;p&gt;
+        Sidenotes can be used as an alternative to footnotes, where the user does not
+        have to jump to the bottom of the page to read it. On mobile, click the
+        superscript to reveal the note&lt;label for=&#34;sn-1&#34; class=&#34;sidenote-toggle sidenote-number&#34;&gt;&lt;/label&gt;&lt;input
+          type=&#34;checkbox&#34; id=&#34;sn-1&#34; class=&#34;sidenote-toggle&#34; /&gt;&lt;span class=&#34;sidenote&#34;&gt;Yay, sidenotes!. If you are on
+          mobile, I will appear inline. If you are
+          using a larger screen, the sidenote will appear to the right of the
+          text.&lt;/span&gt;.
+      &lt;/p&gt;
+
+      &lt;p&gt;
+        Sidenotes do need a little bit of setup, they are made up of a label, an
+        invisible checkbox on top of the number and a span with the text inside. The
+        superscript is set automatically and incremented using CSS when the
+        checkbox has a class of &lt;code&gt;sidenote-number&lt;/code&gt;.
+      &lt;/p&gt;
+      &lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;label for=&#34;sn-1&#34; class=&#34;sidenote-toggle sidenote-number&#34;&amp;gt;&amp;lt;/label&amp;gt;
+&amp;lt;input type=&#34;checkbox&#34; id=&#34;sn-1&#34; class=&#34;sidenote-toggle&#34; /&amp;gt;
+&amp;lt;span class=&#34;sidenote&#34;&amp;gt;&amp;lt;!-- sidenote content --&amp;gt;&amp;lt;/span&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;p&gt;If you do not need superscripted numbers, you can opt out of the &lt;code&gt;sidenote-number&lt;/code&gt; class and the sidenote will not have a number assigned. On a smaller screen, you will need to add a symbol inside the &lt;code&gt;label&lt;/code&gt; for the user to click on. &lt;label for=&#34;sn-plus&#34; class=&#34;sidenote-toggle&#34;&gt;⊕&lt;/label&gt;&lt;input type=&#34;checkbox&#34;
+          id=&#34;sn-plus&#34; class=&#34;sidenote-toggle&#34; /&gt;&lt;span class=&#34;sidenote&#34;&gt;This is a sidenote without a number.&lt;/span&gt;&lt;/p&gt;
+      &lt;p&gt;The snippet for a sidenote without a number is very similar:&lt;/p&gt;
+      &lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;label for=&#34;sn-anything&#34; class=&#34;sidenote-toggle&#34;&amp;gt;⊕&amp;lt;/label&amp;gt;
+&amp;lt;input type=&#34;checkbox&#34; id=&#34;sn-anything&#34; class=&#34;sidenote-toggle&#34; /&amp;gt;
+&amp;lt;span class=&#34;sidenote&#34;&amp;gt;&amp;lt;!-- sidenote content --&amp;gt;&amp;lt;/span&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;!-- sidnotes as a link
+          &lt;label for=&#34;sn-plus&#34; class=&#34;sidenote-toggle&#34;&gt;&lt;a
+            href=&#34;#sn-plus-content&#34;&gt;⊕&lt;/a&gt;&lt;/label&gt;&lt;input type=&#34;checkbox&#34; id=&#34;sn-plus&#34; class=&#34;sidenote-toggle&#34; /&gt;&lt;span
+          class=&#34;sidenote&#34; id=&#34;sn-plus-content&#34;&gt;This is a sidenote without a number.&lt;/span&gt; --&gt;
+      &lt;p&gt;Add a class of &lt;code&gt;left&lt;/code&gt; to the span with the &lt;code&gt;sidenote&lt;/code&gt; class to make the note appear on the left side of the page on instead of right.&lt;/p&gt;
+      &lt;p&gt;The symbol you could use to indicate a sidenote is up to you. What about this notebook. &lt;label for=&#34;sn-symbol&#34;
+          class=&#34;sidenote-toggle&#34;&gt;📝&lt;/label&gt;&lt;input type=&#34;checkbox&#34; id=&#34;sn-symbol&#34; class=&#34;sidenote-toggle&#34; /&gt;&lt;span
+          class=&#34;sidenote left&#34;&gt;A notebook indicating a note. Aha. &lt;br&gt; (if on a large screen, resize to mobile to see the emoji)&lt;/span&gt;&lt;/p&gt;
+      &lt;!-- &lt;blockquote&gt;You could also have sidenotes inside blockquotes just like this one &lt;label for=&#34;sn-quote&#34;
+          class=&#34;sidenote-toggle&#34;&gt;🔖&lt;/label&gt;&lt;input type=&#34;checkbox&#34; id=&#34;sn-quote&#34; class=&#34;sidenote-toggle&#34; /&gt;&lt;span
+          class=&#34;sidenote&#34;&gt;Hello there!&lt;/span&gt;.&lt;/blockquote&gt; --&gt;
+
+      &lt;h2 id=&#34;dark-mode&#34;&gt;Dark Mode&lt;/h2&gt;
+      &lt;p&gt;There is built-in support for dark mode. By default, the document is in light mode. To enable dark mode, add
+        the
+        &lt;code&gt;latex-dark&lt;/code&gt; class to the &lt;code class=&#34;language-html&#34;&gt;&amp;lt;body&amp;gt;&lt;/code&gt; element. This will force
+        the document to be in dark mode.
+      &lt;/p&gt;
+      &lt;p&gt;If you want enable dark mode based on the
+        &lt;code&gt;prefers-color-scheme&lt;/code&gt; CSS media query, then use the &lt;code&gt;latex-dark-auto&lt;/code&gt; class instead.
+      &lt;/p&gt;
+      &lt;p&gt;You can also add a dark mode toggle to your site by adding a button and a tiny bit of JavaScript:&lt;/p&gt;
+      &lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;button id=&#34;dark-mode-toggle&#34;&amp;gt;Toggle dark mode&amp;lt;/button&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;pre&gt;&lt;code class=&#34;language-javascript&#34;&gt;document
+  .querySelector(&#34;#dark-mode-toggle&#34;)
+  .addEventListener(&#39;click&#39;, () =&gt; {
+     document.body.classList.toggle(&#34;latex-dark&#34;);
+  });&lt;/code&gt;&lt;/pre&gt;
+      &lt;p&gt;Like this: &lt;button id=&#34;dark-mode-toggle&#34;&gt;Toggle dark mode&lt;/button&gt;&lt;/p&gt;
+
+      &lt;h2 id=&#34;alternative-typeface&#34;&gt;Alternative Typeface&lt;/h2&gt;
+      &lt;p&gt;&lt;span class=&#34;latex&#34;&gt;L&lt;span&gt;a&lt;/span&gt;T&lt;span&gt;e&lt;/span&gt;X&lt;/span&gt;.css uses Latin Modern by default. If you don&#39;t like this typeface (hard to read, too thin, etc.), you can switch to the &lt;a href=&#34;https://github.com/alerque/libertinus&#34;&gt;&lt;code&gt;Libertinus&lt;/code&gt;&lt;/a&gt; font family by adding a class of &lt;code&gt;libertinus&lt;/code&gt; to the &lt;code class=&#34;language-html&#34;&gt;&amp;lt;body&amp;gt;&lt;/code&gt; tag. Click the button below to switch between Latin Modern and Libertinus.&lt;/p&gt;
+
+      &lt;button id=&#34;typeface-toggle&#34;&gt;Current typeface: &lt;span id=&#34;typeface&#34;&gt;Latin Modern&lt;/span&gt;&lt;/button&gt;
+
+      &lt;h2 id=&#34;html-elements&#34;&gt;HTML Elements&lt;/h2&gt;
+      &lt;p&gt;
+        For a preview of all HTML elements with LaTeX.css, check out the
+        &lt;a href=&#34;http://localhost:1313/elements&#34;&gt;HTML5 elements test page&lt;/a&gt;.
+      &lt;/p&gt;
+
+      &lt;h3 id=&#34;text-formatting&#34;&gt;Text Formatting&lt;/h3&gt;
+      &lt;p&gt;
+        This sentence is &lt;b&gt;bold&lt;/b&gt;. If you like semantics, you might go with
+        &lt;strong&gt;strong&lt;/strong&gt; or &lt;em&gt;emphasized&lt;/em&gt; text. If not,
+        &lt;i&gt;italic&lt;/i&gt; is still around. &lt;small&gt;Small&lt;/small&gt; text is for fine
+        print. Your copy can also be &lt;sub&gt;subscripted&lt;/sub&gt; and
+        &lt;sup&gt;superscripted&lt;/sup&gt;, &lt;ins&gt;inserted&lt;/ins&gt;, &lt;del&gt;deleted&lt;/del&gt;, or
+        &lt;mark&gt;highlighted&lt;/mark&gt;. You would use a
+        &lt;a href=&#34;#!&#34;&gt;hyperlink&lt;/a&gt; to go to a new page. Keyboard input
+        elements like &lt;kbd&gt;Cmd&lt;/kbd&gt; + &lt;kbd&gt;Shift&lt;/kbd&gt;
+        are used to display textual user input.
+      &lt;/p&gt;
+
+      &lt;h3 id=&#34;blockquotes&#34;&gt;Blockquotes&lt;/h3&gt;
+      &lt;blockquote&gt;
+        Give me six hours to chop down a tree and I will spend the first four
+        sharpening the axe.
+        &lt;cite&gt;— Abraham Lincoln&lt;/cite&gt;
+      &lt;/blockquote&gt;
+
+      &lt;h3 id=&#34;definition-lists&#34;&gt;Definition Lists&lt;/h3&gt;
+      &lt;dl&gt;
+        &lt;dt&gt;Definition Title One&lt;/dt&gt;
+        &lt;dd&gt;First definition description&lt;/dd&gt;
+        &lt;dt&gt;Binomial theorem&lt;/dt&gt;
+        &lt;dd&gt;
+          $$(x+y)^{n}=\sum_{k=0}^{n}\left(\begin{array}{l}n \\
+          k\end{array}\right) x^{n-k}
+          y^{k}=\sum_{k=0}^{n}\left(\begin{array}{l}n \\ k\end{array}\right)
+          x^{k} y^{n-k}$$
+        &lt;/dd&gt;
+      &lt;/dl&gt;
+
+      &lt;h3 id=&#34;tables&#34;&gt;Tables&lt;/h3&gt;
+      &lt;table&gt;
+        &lt;caption&gt;A sample table with a descriptive caption.&lt;/caption&gt;
+        &lt;thead&gt;
+          &lt;tr&gt;
+            &lt;th&gt;Header 1&lt;/th&gt;
+            &lt;th&gt;Header 2&lt;/th&gt;
+            &lt;th&gt;Header 3&lt;/th&gt;
+          &lt;/tr&gt;
+        &lt;/thead&gt;
+        &lt;tfoot&gt;
+          &lt;tr&gt;
+            &lt;th&gt;Footer 1&lt;/th&gt;
+            &lt;th&gt;Footer 2&lt;/th&gt;
+            &lt;th&gt;Footer 3&lt;/th&gt;
+          &lt;/tr&gt;
+        &lt;/tfoot&gt;
+        &lt;tbody&gt;
+          &lt;tr&gt;
+            &lt;td&gt;Description 1&lt;/td&gt;
+            &lt;td&gt;Description 2&lt;/td&gt;
+            &lt;td&gt;Description 3&lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;Description 1&lt;/td&gt;
+            &lt;td&gt;Description 2&lt;/td&gt;
+            &lt;td&gt;Description 3&lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;Description 1&lt;/td&gt;
+            &lt;td&gt;Description 2&lt;/td&gt;
+            &lt;td&gt;Description 3&lt;/td&gt;
+          &lt;/tr&gt;
+        &lt;/tbody&gt;
+      &lt;/table&gt;
+
+      &lt;table&gt;
+        &lt;caption&gt;
+          Example table taken from &lt;a href=&#34;https://texdoc.org/serve/booktabs/0&#34;&gt;this
+            paper&lt;/a&gt; on how to produce quality tables with LaTeX.
+        &lt;/caption&gt;
+        &lt;thead&gt;
+          &lt;tr&gt;
+            &lt;th colspan=&#34;2&#34; scope=&#34;col&#34;&gt;Item&lt;/th&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;th&gt;Animal&lt;/th&gt;
+            &lt;th&gt;Description&lt;/th&gt;
+            &lt;th&gt;Price ($)&lt;/th&gt;
+          &lt;/tr&gt;
+        &lt;/thead&gt;
+        &lt;tbody&gt;
+          &lt;tr&gt;
+            &lt;td&gt;Gnat&lt;/td&gt;
+            &lt;td&gt;per gram&lt;/td&gt;
+            &lt;td&gt;13.65&lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;Gnu&lt;/td&gt;
+            &lt;td&gt;stuffed&lt;/td&gt;
+            &lt;td&gt;92.50&lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;Emu&lt;/td&gt;
+            &lt;td&gt;stuffed&lt;/td&gt;
+            &lt;td&gt;33.33&lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;Armadillo&lt;/td&gt;
+            &lt;td&gt;frozen&lt;/td&gt;
+            &lt;td&gt;8.99&lt;/td&gt;
+          &lt;/tr&gt;
+        &lt;/tbody&gt;
+      &lt;/table&gt;
+
+      &lt;div class=&#34;scroll-wrapper&#34;&gt;
+        &lt;table&gt;
+          &lt;caption&gt;Color names and values.&lt;/caption&gt;
+          &lt;tbody&gt;
+            &lt;tr&gt;
+              &lt;th scope=&#34;col&#34;&gt;Name&lt;/th&gt;
+              &lt;th scope=&#34;col&#34;&gt;HEX&lt;/th&gt;
+              &lt;th scope=&#34;col&#34;&gt;HSL&lt;/th&gt;
+              &lt;th scope=&#34;col&#34;&gt;RGB&lt;/th&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;th scope=&#34;row&#34; style=&#34;color: teal;&#34;&gt;Teal&lt;/th&gt;
+              &lt;td&gt;&lt;code&gt;#008080&lt;/code&gt;&lt;/td&gt;
+              &lt;td&gt;&lt;code&gt;hsl(180, 100%, 25%)&lt;/code&gt;&lt;/td&gt;
+              &lt;td&gt;&lt;code&gt;rgb(0, 128, 128)&lt;/code&gt;&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;th scope=&#34;row&#34; style=&#34;color: goldenrod;&#34;&gt;Goldenrod&lt;/th&gt;
+              &lt;td&gt;&lt;code&gt;#daa520&lt;/code&gt;&lt;/td&gt;
+              &lt;td&gt;&lt;code&gt;hsl(43, 74%, 49%)&lt;/code&gt;&lt;/td&gt;
+              &lt;td&gt;&lt;code&gt;rgb(218, 165, 32)&lt;/code&gt;&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;th scope=&#34;row&#34; style=&#34;color: cornflowerblue;&#34;&gt;Cornflowerblue&lt;/th&gt;
+              &lt;td&gt;&lt;code&gt;#6495ed&lt;/code&gt;&lt;/td&gt;
+              &lt;td&gt;&lt;code&gt;hsl(219, 79%, 66%)&lt;/code&gt;&lt;/td&gt;
+              &lt;td&gt;&lt;code&gt;rgb(100, 149, 237)&lt;/code&gt;&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;th scope=&#34;row&#34; style=&#34;color: lightcoral;&#34;&gt;Lightcoral&lt;/th&gt;
+              &lt;td&gt;&lt;code&gt;#f08080&lt;/code&gt;&lt;/td&gt;
+              &lt;td&gt;&lt;code&gt;hsl(0, 79%, 72%)&lt;/code&gt;&lt;/td&gt;
+              &lt;td&gt;&lt;code&gt;rgb(240, 128, 128)&lt;/code&gt;&lt;/td&gt;
+            &lt;/tr&gt;
+          &lt;/tbody&gt;
+        &lt;/table&gt;
+      &lt;/div&gt;
+
+      &lt;table class=&#34;borders-custom col-1-c col-2-c col-3-c col-4-c col-5-c col-6-c
+        col-7-c col-8-c&#34;&gt;
+        &lt;caption&gt;Example table with custom borders and aligment.&lt;/caption&gt;
+        &lt;colgroup&gt;
+          &lt;col class=&#34;border-left-thin border-right-thin&#34;&gt;
+          &lt;col class=&#34;border-right-thin&#34;&gt;
+          &lt;col class=&#34;border-right-thin&#34;&gt;
+          &lt;col class=&#34;border-right-thin&#34;&gt;
+          &lt;col class=&#34;border-right-thick&#34;&gt;
+          &lt;col class=&#34;border-right-thin&#34;&gt;
+          &lt;col class=&#34;border-right-thin&#34;&gt;
+        &lt;/colgroup&gt;
+        &lt;tr class=&#34;border-top-thin&#34;&gt;
+          &lt;th scope=&#34;col&#34; colspan=&#34;7&#34;&gt;De Morgan&#39;s Law: $\lnot P \lor \lnot Q \iff \lnot (P \land Q)$&lt;/th&gt;
+        &lt;/tr&gt;
+        &lt;tr&gt;
+          &lt;th scope=&#34;col&#34; colspan=&#34;7&#34; class=&#34;border-bottom-thin&#34;&gt;TRUTH TABLE&lt;/th&gt;
+        &lt;/tr&gt;
+        &lt;tr class=&#34;border-bottom-thin&#34;&gt;
+          &lt;td&gt;$P$&lt;/td&gt;
+          &lt;td&gt;$Q$&lt;/td&gt;
+          &lt;td&gt;$\lnot P$&lt;/td&gt;
+          &lt;td&gt;$\lnot Q$&lt;/td&gt;
+          &lt;td&gt;$P \land Q$&lt;/td&gt;
+          &lt;td&gt;$\lnot P \lor \lnot Q$&lt;/td&gt;
+          &lt;td&gt;$\lnot (P \land Q)$&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr class=&#34;border-bottom-thin&#34;&gt;
+          &lt;td rowspan=&#34;2&#34;&gt;T&lt;/td&gt;
+          &lt;td&gt;T&lt;/td&gt;
+          &lt;td rowspan=&#34;2&#34;&gt;F&lt;/td&gt;
+          &lt;td&gt;F&lt;/td&gt;
+          &lt;td&gt;T&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;F&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;F&lt;/strong&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr class=&#34;border-bottom-thin&#34;&gt;
+          &lt;td&gt;F&lt;/td&gt;
+          &lt;td&gt;T&lt;/td&gt;
+          &lt;td&gt;F&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;T&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;T&lt;/strong&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr class=&#34;border-bottom-thin&#34;&gt;
+          &lt;td rowspan=&#34;2&#34;&gt;F&lt;/td&gt;
+          &lt;td&gt;T&lt;/td&gt;
+          &lt;td rowspan=&#34;2&#34;&gt;T&lt;/td&gt;
+          &lt;td&gt;F&lt;/td&gt;
+          &lt;td&gt;F&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;T&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;T&lt;/strong&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+        &lt;tr class=&#34;border-bottom-thin&#34;&gt;
+          &lt;td&gt;F&lt;/td&gt;
+          &lt;td&gt;T&lt;/td&gt;
+          &lt;td&gt;F&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;T&lt;/strong&gt;&lt;/td&gt;
+          &lt;td&gt;&lt;strong&gt;T&lt;/strong&gt;&lt;/td&gt;
+        &lt;/tr&gt;
+      &lt;/table&gt;
+
+      &lt;table class=&#34;borders-custom col-1-l col-2-c col-3-c col-4-r&#34;&gt;
+        &lt;caption&gt;Close approaches to the Earth by NEOs.&lt;/caption&gt;
+        &lt;thead&gt;
+          &lt;tr class=&#34;border-bottom-thick&#34;&gt;
+            &lt;th&gt;CA Date&lt;/th&gt;
+            &lt;th&gt;Object Name&lt;/th&gt;
+            &lt;th&gt;Diameter&lt;/th&gt;
+            &lt;th&gt;Dist. Min. (LD)&lt;/th&gt;
+          &lt;/tr&gt;
+        &lt;/thead&gt;
+        &lt;tbody&gt;
+          &lt;tr&gt;
+            &lt;td&gt;2023-Jul-10&lt;/td&gt;
+            &lt;td&gt;2018 NW&lt;/td&gt;
+            &lt;td&gt;7.3m-16m&lt;/td&gt;
+            &lt;td&gt;0.287&lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;2023-Jul-10&lt;/td&gt;
+            &lt;td&gt;2023 LN1&lt;/td&gt;
+            &lt;td&gt;45m-00m&lt;/td&gt;
+            &lt;td&gt;17.813&lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;2023-Jul-11&lt;/td&gt;
+            &lt;td&gt;2023 MD2&lt;/td&gt;
+            &lt;td&gt;36m-80m&lt;/td&gt;
+            &lt;td&gt;5.570&lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;2023-Jul-11&lt;/td&gt;
+            &lt;td&gt;2023 NE&lt;/td&gt;
+            &lt;td&gt;32m-70m&lt;/td&gt;
+            &lt;td&gt;11.253&lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;2023-Jul-11&lt;/td&gt;
+            &lt;td&gt;2023 MQ1&lt;/td&gt;
+            &lt;td&gt;28m-62m&lt;/td&gt;
+            &lt;td&gt;10.716&lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;2023-Jul-12&lt;/td&gt;
+            &lt;td&gt;2023 OM&lt;/td&gt;
+            &lt;td&gt;20m-46m&lt;/td&gt;
+            &lt;td&gt;7.628&lt;/td&gt;
+          &lt;/tr&gt;
+          &lt;tr&gt;
+            &lt;td&gt;2023-Jul-12&lt;/td&gt;
+            &lt;td&gt;2018 UY&lt;/td&gt;
+            &lt;td&gt;190m-420m&lt;/td&gt;
+            &lt;td&gt;7.412&lt;/td&gt;
+          &lt;/tr&gt;
+        &lt;/tbody&gt;
+      &lt;/table&gt;
+
+      &lt;h3 id=&#34;images&#34;&gt;Images&lt;/h3&gt;
+      &lt;figure&gt;
+        &lt;img src=&#34;https://images.unsplash.com/photo-1477346611705-65d1883cee1e?auto=format&amp;fit=crop&amp;w=1000&amp;q=80&#34;
+          loading=&#34;lazy&#34; alt=&#34;Mountain landscape&#34; width=&#34;600&#34; height=&#34;400&#34; /&gt;
+        &lt;figcaption&gt;
+          Mountain landscape by
+          &lt;a href=&#34;https://unsplash.com/@heytowner&#34;&gt;John Towner&lt;/a&gt;.
+        &lt;/figcaption&gt;
+      &lt;/figure&gt;
+
+      &lt;h2 id=&#34;miscellaneous&#34;&gt;Miscellaneous&lt;/h2&gt;
+
+      &lt;h3 id=&#34;scroll-overflow&#34;&gt;Scroll Overflow&lt;/h3&gt;
+      &lt;p&gt;It is best to break up long equations into smaller parts, but when this isn&#39;t possible, consider wrapping the
+        overflowing element with a class of &lt;code&gt;scroll-wrapper&lt;/code&gt; to
+        allow scrolling on the x-axis. Large tables should also be wrapped with this class.&lt;/p&gt;
+      &lt;p&gt;Below is an example of a long equation with overflow scroll.&lt;/p&gt;
+      &lt;div class=&#34;scroll-wrapper&#34;&gt;
+        $$(1+x)^{n}=1+n x+\frac{n(n-1)}{2 !} x^{2}+\frac{n(n-1)(n-2)}{3 !} x^{3}+\frac{n(n-1)(n-2)(n-3)}{4 !}
+        x^{4}+\frac{n(n-1)(n-2)(n-3)(n-4)}{5 !}
+        x^{5}+\ldots$$
+      &lt;/div&gt;
+
+      &lt;h3 id=&#34;syntax-highlighting&#34;&gt;Syntax Highlighting&lt;/h3&gt;
+      &lt;p&gt;If you need syntax highlighting for code, LaTeX.css provides a &lt;a href=&#34;https://prismjs.com/&#34;&gt;PrismJS&lt;/a&gt; theme
+        that immitates the &lt;a href=&#34;https://github.com/gpoore/minted&#34;&gt;minted&lt;/a&gt; package for LaTeX. Add the following
+        stylesheet and script:&lt;/p&gt;
+      &lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;link rel=&#34;stylesheet&#34; href=&#34;https://latex.vercel.app/prism/prism.css&#34;&amp;gt;
+
+&amp;lt;script src=&#34;https://cdn.jsdelivr.net/npm/prismjs/prism.min.js&#34;&amp;gt;&amp;lt;/script&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;p&gt;And use it like this:&lt;/p&gt;
+      &lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;pre&amp;gt;
+  &amp;lt;code class=&#34;language-html&#34;&amp;gt;
+    &amp;lt;!-- your HTML code snippet --&amp;gt;
+  &amp;lt;/code&amp;gt;
+&amp;lt;/pre&amp;gt;&lt;/code&gt;&lt;/pre&gt;
+      &lt;p&gt;Change which languages Prism highlights by customising the script &lt;a href=&#34;https://prismjs.com/download.html&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+
+      &lt;div class=&#34;footnotes&#34;&gt;
+        &lt;p id=&#34;fn1&#34;&gt;
+          1. From
+          &lt;a
+            href=&#34;https://www.math.brown.edu/~res/MFS/handout8.pdf&#34;&gt;https://www.math.brown.edu/~res/MFS/handout8.pdf&lt;/a&gt;.
+          &lt;a href=&#34;#ref1&#34; title=&#34;Jump back to footnote 1 in the text.&#34;&gt;↩&lt;/a&gt;
+        &lt;/p&gt;
+        &lt;p id=&#34;fn2&#34;&gt;
+          2. “Definition.” Merriam-Webster.com Dictionary, Merriam-Webster,
+          &lt;a
+            href=&#34;https://www.merriam-webster.com/dictionary/definition&#34;&gt;https://www.merriam-webster.com/dictionary/definition&lt;/a&gt;.
+          Accessed 18 May. 2020.
+          &lt;a href=&#34;#ref2&#34; title=&#34;Jump back to footnote 2 in the text.&#34;&gt;↩&lt;/a&gt;
+        &lt;/p&gt;
+      &lt;/div&gt;
+    &lt;/article&gt;
+  &lt;/main&gt;
+
+  &lt;script&gt;
+    MathJax = {
+      tex: {
+        inlineMath: [[&#39;$&#39;, &#39;$&#39;],],
+      },
+    }
+    const typeFaceToggle = document.getElementById(&#39;typeface-toggle&#39;)
+    const typeface = document.getElementById(&#39;typeface&#39;)
+    typeFaceToggle.addEventListener(&#39;click&#39;, () =&gt; {
+      document.body.classList.toggle(&#39;libertinus&#39;)
+      typeface.textContent = document.body.classList.contains(&#39;libertinus&#39;) ? &#39;Libertinus&#39; : &#39;Latin Modern&#39;
+    })
+
+    const darkModeToggle = document.getElementById(&#39;dark-mode-toggle&#39;)
+    darkModeToggle.addEventListener(&#39;click&#39;, () =&gt; {
+      document.body.classList.toggle(&#39;latex-dark&#39;)
+    })
+  &lt;/script&gt;
+  &lt;script id=&#34;MathJax-script&#34; async src=&#34;https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js&#34;&gt;&lt;/script&gt;
+  &lt;script async src=&#34;prism/prism.js&#34;&gt;&lt;/script&gt;
+
+&lt;/body&gt;
+
+&lt;/html&gt;</description>
     </item>
     
     

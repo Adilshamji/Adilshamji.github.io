@@ -1,0 +1,47 @@
+html {
+    scrollbar-color: #dfc4c4 #c93b3b;
+}
+
+body {
+    color: #c29b79;
+    background: #44aa34;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+header#banner a {
+    color: #bfbfbf;
+    text-decoration: none;
+}
+
+header#banner nav ul li a {
+    color: #a6a6a6;
+}
+
+main#content a {
+    color: #909090;
+}
+
+main#content p {
+    color: #e0e0e0;
+}
+
+main#content hr {
+    background: #6c6c6c;
+}
+
+main#content #toc h4 {
+    color: #b4b4b4;
+}
+
+main#content ul#posts small {
+    color: #979797;
+}
+
+main#content ul#posts li a:hover {
+    color: #bfcfcf;
+}
+
+main#content header#post-header div {
+    color: #979797;
+}
