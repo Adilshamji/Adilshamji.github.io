@@ -1,10 +1,17 @@
 baseURL = "https://adilshamji.github.io/"
 languageCode = "en-us"
-title = "My Hugo Site"
+title = "Adil Shamji"
 theme = "etch"
+# For syntax highlighting
+pygmentsCodeFences = true
+pygmentsUseClasses = true
 
 [params]
+  description = "Adil Shamji"
+  copyright = "Copyright © 2025 Adil Shamji"
+  dark = "on"
   mainSections = ["posts"]
   paginate = 5
   showDescription = true
   showReadingTime = true
+
