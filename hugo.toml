@@ -16,6 +16,7 @@ pygmentsUseClasses = true
   paginate = 5
   showDescription = true
   showReadingTime = true
+  
 
 [markup]
   [markup.goldmark]
