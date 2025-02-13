@@ -1,6 +1,11 @@
-<h3>{{ i18n "posts.title" }}</h3>
-<ul id="posts">
-{{- range where site.RegularPages "Type" "in" site.Params.mainSections }}
-    {{ .Render "li" }}
+{{- if .Params.showPosts }}
+  <h3>Posts</h3>
+  <ul id="posts">
+    {{- range sort (where .Site.RegularPages "Section" .Section) "Date" "desc" }}
+      <li>
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        <span style="color: gray;">{{ .Date.Format "2006-01-02" }}</span>
+      </li>
+    {{- end }}
+  </ul>
 {{- end }}
-</ul>

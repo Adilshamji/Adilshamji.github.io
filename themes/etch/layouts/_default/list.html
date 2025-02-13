@@ -1,3 +1,9 @@
 {{ define "main" }}
-{{- partial "posts.html" . -}}
+  <h1>{{ .Title }}</h1>
+  {{ if .Params.showPosts }}
+    {{ partial "posts.html" . }}
+  {{ else }}
+    <p style="color: red;">DEBUG: showPosts is FALSE or missing!</p>
+  {{ end }}
+  {{ .Content }}
 {{ end }}
