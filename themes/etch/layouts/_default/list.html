@@ -1,9 +1,10 @@
 {{ define "main" }}
   <h1>{{ .Title }}</h1>
+  <p style="color: yellow;">DEBUG: list.html loaded. Section: {{ .Section }} | showPosts: {{ .Params.showPosts }}</p>
   {{ if .Params.showPosts }}
     {{ partial "posts.html" . }}
   {{ else }}
-    <p style="color: red;">DEBUG: showPosts is FALSE or missing!</p>
+    <p style="color: red;">DEBUG: showPosts is FALSE or missing in _index.md!</p>
   {{ end }}
   {{ .Content }}
 {{ end }}
