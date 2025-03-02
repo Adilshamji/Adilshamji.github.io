@@ -104,6 +104,15 @@ blockquote {
   font-style: italic;
   margin: 1rem 0;
 }
+/* This is used to remove additional space 
+   between paragraph and lists.
+*/
+p + ul {
+  margin-top: -1em;
+}
+p + ol {
+  margin-top: -1em;
+}
 
 /* Lists */
 ul, ol {

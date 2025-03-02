@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Adil Shamji">
+    
+    <link rel="shortcut icon" href="http://localhost:1313/favicon.ico">
+    
+    
+
+    
+    <link rel="stylesheet" href="/css/style.min.css">
+
+    <link rel="canonical" href="http://localhost:1313/dump/main/" />
+    <title></title>
+</head>
+<body><header id="banner">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.css" integrity="sha384-3UiQGuEI4TTMaFmGIZumfRPtfKQ3trwQE2JgosJxCnGmQpL/lJdjpcHkaaFwHlcI" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/katex.min.js" integrity="sha384-G0zcxDFp5LWZtDuRMnBkk3EphCK1lhEf4UEyEM693ka574TZGwo4IWwS6QLzM/2t" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            renderMathInElement(document.body, {
+              
+              
+              delimiters: [
+                  {left: '$$', right: '$$', display: true},
+                  {left: '$', right: '$', display: false},
+                  {left: '\\(', right: '\\)', display: false},
+                  {left: '\\[', right: '\\]', display: true}
+              ],
+              
+              throwOnError : false
+            });
+        });
+    </script>
+
+    <h2><a href="http://localhost:1313/">Adil Shamji</a></h2>
+    <nav>
+        <ul>
+            
+        </ul>
+    </nav>
+</header>
+<main id="content">
+  <h1></h1>
+  <div>
+    <h1 id="lecture-1">Lecture 1</h1>
+<p>2025-01-22</p>
+<h2 id="flood-fill">Flood-fill</h2>
+<p>A type of DFS, usually used when we want to search in a grid.</p>
+<h2 id="representation-of-input">Representation of Input</h2>
+<h3 id="bitmap">Bitmap:</h3>
+<p>To represent 2D-grid, or array of pixel in a image. Consider using a bitmap. That you read each row as a string,</p>
+<h2 id="time-complexity">Time complexity</h2>
+<h3 id="subset">Subset</h3>
+<p><em>$2^{n}$ subsets (or combinations) of n elements.</em>
+Consider N = 3 ${A, B, C}$, total number of subset: $2^3= 8$.</p>
+<ol>
+<li>Empty subset</li>
+<li>{A}, {B}, {C}</li>
+<li>{A,B},{A,C}, {B,C}</li>
+<li>{A, B, C}</li>
+</ol>
+<h4 id="algorithm">Algorithm:</h4>
+<p>We check that the bit at position j is 1 using the condition, if true we include in the subset, else exclude.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-c++" data-lang="c++"><span class="line"><span class="cl"><span class="n">vector</span><span class="o">&lt;</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;&gt;</span> <span class="n">find_subset</span><span class="p">(</span><span class="k">const</span> <span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;&amp;</span> <span class="n">vec</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="n">vector</span><span class="o">&lt;</span><span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;&gt;</span> <span class="n">allsubs</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="kt">int</span> <span class="n">n</span> <span class="o">=</span> <span class="n">vec</span><span class="p">.</span><span class="n">size</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">    <span class="kt">int</span> <span class="n">m</span> <span class="o">=</span> <span class="n">pow</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="n">n</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    
+</span></span><span class="line"><span class="cl">    <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">mask</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">mask</span> <span class="o">&lt;</span> <span class="n">m</span><span class="p">;</span> <span class="n">mask</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="n">vector</span><span class="o">&lt;</span><span class="kt">int</span><span class="o">&gt;</span> <span class="n">subs</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">        <span class="k">for</span> <span class="p">(</span><span class="kt">int</span> <span class="n">j</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">j</span> <span class="o">&lt;</span> <span class="n">n</span><span class="p">;</span> <span class="n">j</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="k">if</span> <span class="p">(</span><span class="n">mask</span> <span class="o">&amp;</span> <span class="p">(</span><span class="mi">1</span> <span class="o">&lt;&lt;</span> <span class="n">j</span><span class="p">))</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                <span class="n">subs</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span><span class="n">vec</span><span class="p">[</span><span class="n">j</span><span class="p">]);</span>
+</span></span><span class="line"><span class="cl">            <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">        <span class="k">if</span> <span class="p">(</span><span class="n">mask</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">            <span class="n">allsubs</span><span class="p">.</span><span class="n">push_back</span><span class="p">(</span><span class="n">subs</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">        <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="n">allsubs</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><p>![[subset-demo.png]]</p>
+<h2 id="debugging">Debugging</h2>
+<p>Use LLDB which is included by default with Xcode.</p>
+<ol>
+<li><em>g++ -g your_program.cpp -o your_program</em></li>
+<li><em>lldb ./your_program</em></li>
+<li>run</li>
+<li><em>if it craches use bt - backtrace</em></li>
+</ol>
+<h2 id="gready-algorithm">Gready Algorithm</h2>
+<p><strong>Q.</strong> Which kinds of problem often have greedy solution?</p>
+<ul>
+<li>Scheduling problems, some graph algorithm.</li>
+</ul>
+<p><strong>Q.</strong> How do we design a greedy algorithm?</p>
+<ul>
+<li>Intuition and trial and error.</li>
+<li>What is fast.</li>
+</ul>
+<h2 id="dynamic-programming">Dynamic Programming</h2>
+<p><strong>Q.</strong> When might dynamic programming be useful?</p>
+<ul>
+<li>There are subproblems.</li>
+<li>Subproblems have have an ordering &ldquo;small&rdquo; to &ldquo;large&rdquo;.
+<strong>Q.</strong> How to draw dynamic programming diagram?</li>
+<li>Table - start filling it out from base case.</li>
+<li>Find recurrence relations.</li>
+</ul>
+<h3 id="sources">Sources:</h3>
+<p><strong>Ex.</strong>
+<a href="https://www.cs.mun.ca/~kol/courses/2711-w08/dynprog-2711.pdf">https://www.cs.mun.ca/~kol/courses/2711-w08/dynprog-2711.pdf</a></p>
+<h3 id="ex-w-solutions">Ex. w solutions</h3>
+<p><a href="https://home.csulb.edu/~tebert/teaching/lectures/528/dp/dp.pdf">https://home.csulb.edu/~tebert/teaching/lectures/528/dp/dp.pdf</a></p>
+<h2 id="graphs">Graphs</h2>
+<h3 id="flood-fill-1">Flood-fill</h3>
+<h3 id="bfs-breadth-first-search">BFS (Breadth first search)</h3>
+<h3 id="mst-kruskals-algorithm">MST Kruskal&rsquo;s algorithm</h3>
+<pre tabindex="0"><code class="language-pseudo" data-lang="pseudo"></code></pre><h3 id="dijkstras">Dijkstras</h3>
+<pre tabindex="0"><code class="language-pseudo" data-lang="pseudo"></code></pre>
+  </div>
+
+  
+    <hr>
+    <p>🔙 <a href="/dump/">Back to Dump</a></p>
+  
+
+        </main><footer id="footer">
+    Copyright © 2025 Adil Shamji
+</footer>
+</body>
+</html>
