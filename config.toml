@@ -1,2 +1,39 @@
-
+baseURL = "https://example.com"
+title = "Website Name"
 theme = "etch"
+languageCode = "en-US"
+enableInlineShortcodes = true
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[params]
+  description = "Adil"
+  copyright = "Copyright © 2025 Adil Shamji"
+  dark = "auto"
+  highlight = true
+
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "posts"
+    title = "posts"
+    url = "/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "dump"
+    name = "dump"
+    title = "dump"
+    url = "/dump/"
+    weight = 20
+
+[permalinks]
+  posts = "/:title/"
+
+[markup.goldmark.renderer]
+  # Allow HTML in Markdown
+  unsafe = true
+
+  [markup.tableOfContents]
+    ordered = true
