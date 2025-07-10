@@ -2,7 +2,7 @@
 title = "Navigera genom livets ovisshet"
 date = "2023-11-02"
 description = "Krönika: Navigera genom livets ovisshet"
-tags = [krönika"]
+tags = ["krönika"]
 draft = false
 +++
 _Föreställ dig följande scen: du sitter vid ett fönster, ser ut över det pulserande stadslandskapet eller den stillsamma omgivningen, och du låter dina tankar vandra. Du tänker på ditt liv, dina ambitioner, dina drömmar och inser något som du länge har känt - livet är som att försöka fånga rök med händerna.  
